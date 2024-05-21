@@ -1,7 +1,7 @@
 # Movie Recommendation System using Collaborative Filtering and Content-Based Filtering
 
 ### Overview
-This project aims to develop a comprehensive movie recommendation system using the MovieLens dataset. The system is designed to provide movie recommendations that users will enjoy, keeping them engaged with the platform. The project involves two main tasks:
+This project aims to develop a movie recommendation system using the [MovieLens](https://grouplens.org/datasets/movielens/100k/) dataset. The system is designed to provide movie recommendations that users will enjoy, keeping them engaged with the platform. The project involves two main tasks:
 
 ### Collaborative Filtering (Item-Based with Cosine Similarity): 
 Recommend movies based on users’ rating history without using any pre-built libraries.
@@ -11,5 +11,9 @@ Dataset
 
 ### The MovieLens dataset includes:
 
-100,000 movie ratings provided by 943 users for 1682 movies.
-Demographic information about users, such as age, gender, and occupation.
+This data set consists of:
+* 100,000 ratings (1-5) from 943 users on 1682 movies. 
+* Each user has rated at least 20 movies. 
+    * Simple demographic info for the users (age, gender, occupation, zip)
+
+
